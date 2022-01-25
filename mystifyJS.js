@@ -80,7 +80,7 @@ function setup() {
 
 function draw() {
   if (isInit) {background(0);}
-  background(0, 10);
+  background(0, 15);
   poly1.update();
   poly2.update();
   isInit = false;
